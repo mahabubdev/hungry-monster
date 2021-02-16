@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungry Monster</title>
+    <!--Fonts-->
+    <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!--Body wrapper-->
+    <div class="bd-wrap">
+        <!--Header-->
+        <header class="header">
+            <div class="container">
+                <!--Navbar-->
+                <nav class="navbar">
+                    <div class="logo">
+                        <img src="./logo.svg" alt="logo">
+                    </div>
+                    <ul class="menu">
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">recipes</a></li>
+                        <li><a href="#">blog</a></li>
+                    </ul>
+                </nav>
+                <!--//Navbar-->
+
+                <!--Search bar-->
+                <div class="search">
+                    <input type="text" name="q" id="q" placeholder="Search for Meal...">
+                    <button type="submit" class="btn-search" id="s">search</button>
+                </div>
+                <!--//Search bar-->
+            </div>
+        </header>
+        <!--//Header-->
+
+        <!--Result area-->
+        <div class="container" id="result-container"></div>
+        <!--Result area-->
+    </div>
+    <!--//Body Wrapper-->
+
+    <!--JavaScripts-->
+    <script src="./app.js"></script>
+</body>
+</html>
